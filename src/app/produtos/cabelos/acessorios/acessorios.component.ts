@@ -9,13 +9,13 @@ export class AcessoriosComponent implements OnInit {
 
   itens:any=[
     {
-      produto: 'Escova de Cabelo The Wet Detangler Black'
+      produto: 'TANGLE TEEZER'
     },
     {
       produto: 'Escova de Cabelo The Original Panther Black'
     },
     {
-      produto: 'Faixa de Cabelo Headband'
+      produto: 'OCÉANE'
     },
     {
       produto: 'Prendedor de Cabelo Produtinhos Da Beauty Bungee'

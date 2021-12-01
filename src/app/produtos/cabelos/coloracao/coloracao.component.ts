@@ -9,10 +9,10 @@ export class ColoracaoComponent implements OnInit {
 
   itens:any=[
     {
-      produto: 'Oxidante 20 Volumes L’Oréal Professionnel Creme 1 75ml'
+      produto: 'LORÉAL PROFESSIONNEL'
     },
     {
-      produto: 'Coloração Majirel 5.0 Castanho Claro Natural Profundo 50g'
+      produto: 'KÉRASTASE'
     },
     {
       produto: 'Ruivosa - Máscara Tonalizante 230g'

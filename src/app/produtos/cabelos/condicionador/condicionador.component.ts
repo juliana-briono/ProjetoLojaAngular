@@ -9,10 +9,10 @@ export class CondicionadorComponent implements OnInit {
 
   itens:any=[
     {
-      produto: 'Condicionador Genesis Fondant Renforcateur 200ml'
+      produto: 'TRUSS PROFESSIONAL 200ml'
     },
     {
-      produto: 'Equilibrium - Condicionador 300ml'
+      produto: 'BUMBLE AND BUMBLE - Condicionador 300ml'
     },
     {
       produto: 'Milagre - Creme de Pentear 450g'
