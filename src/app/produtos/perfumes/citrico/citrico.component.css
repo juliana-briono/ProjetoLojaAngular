@@ -1,0 +1,23 @@
+.breadcrumb{
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #fff;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.produtos{
+    text-align: center;
+    border: 5px #000 solid;
+    background-color:#e28ac0 ;
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,38 @@
+<div class="paginaCompleta">
+    <div class="menu">
+
+        <h1>YOLO BEAUTY</h1>
+        <p>sua loja de cosméticos!</p>
+        <details>
+            <summary class="categoria">MAKEUP</summary>
+            <div class="produto" [routerLink]="['/makeup/olhos']" routerLinkActive="active">Olhos</div>
+            <div class="produto" [routerLink]="['/makeup/rosto']" routerLinkActive="active">Rosto</div>
+            <div class="produto" [routerLink]="['/makeup/pinceis']" routerLinkActive="active">Pincéis</div>
+            <div class="produto" [routerLink]="['/makeup/unhas']" routerLinkActive="active">Unhas</div>
+            <div class="produto" [routerLink]="['/makeup/paletas']" routerLinkActive="active">Paletas</div>
+        </details>
+
+        <details>
+            <summary class="categoria">PERFUMES</summary>
+            <div class="produto" [routerLink]="['/perfumes/citrico']" routerLinkActive="active">Cítrico</div>
+            <div class="produto" [routerLink]="['/perfumes/floral']" routerLinkActive="active">Floral</div>
+            <div class="produto" [routerLink]="['/perfumes/frutal']" routerLinkActive="active">Frutal</div>
+            <div class="produto" [routerLink]="['/perfumes/amadeirado']" routerLinkActive="active">Amadeirado</div>
+        </details>
+
+        <details>
+            <summary class="categoria">CABELOS</summary>
+            <div class="produto" [routerLink]="['/cabelos/shampoo']" routerLinkActive="active">Shampoo</div>
+            <div class="produto" [routerLink]="['/cabelos/condicionador']" routerLinkActive="active">Condicionador</div>
+            <div class="produto" [routerLink]="['/cabelos/tratamentos']" routerLinkActive="active">Tratamentos</div>
+            <div class="produto" [routerLink]="['/cabelos/coloracao']" routerLinkActive="active">Coloração</div>
+            <div class="produto" [routerLink]="['/cabelos/acessorios']" routerLinkActive="active">Acessórios</div>
+        </details>
+
+
+
+    </div>
+    <div class="produtos">
+        <router-outlet></router-outlet>
+    </div>
+</div>

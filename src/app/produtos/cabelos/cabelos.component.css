@@ -1,0 +1,11 @@
+.breadcrumb{
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #fff;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
